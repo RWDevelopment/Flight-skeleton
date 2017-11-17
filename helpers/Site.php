@@ -1,5 +1,5 @@
 <?php
-define("ROOT", $_SERVER['SERVER_NAME'] . '/travel2georgia/assets/');
+define("ROOT", $_SERVER['SERVER_NAME'] . '....................');
 class Site {
 
     // echo Site::css('css/blog.css'); //
