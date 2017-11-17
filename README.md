@@ -1,1 +1,1 @@
-# PHP Flight frameowrk skeleton with Bootstrap 4
+# PHP Flight framework skeleton with Bootstrap 4
