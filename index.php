@@ -2,7 +2,11 @@
 require 'flight/Flight.php';
 
 Flight::route('/', function(){
-    echo 'hello world!';
+    Flight::render('main');
+});
+
+Flight::map('notFound', function(){
+    Flight::render('404');
 });
 
 Flight::start();
