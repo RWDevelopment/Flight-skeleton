@@ -1,5 +1,7 @@
 <?php
 require 'flight/Flight.php';
+Flight::view()->set('sitename', 'Flight-skeleton');
+
 
 Flight::route('/', function(){
     Flight::render('main');
