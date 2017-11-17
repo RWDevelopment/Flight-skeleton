@@ -1,5 +1,7 @@
 <?php
 require 'flight/Flight.php';
+define('ROOT', __DIR__ .'/');
+
 Flight::view()->set('sitename', 'Flight-skeleton');
 
 
