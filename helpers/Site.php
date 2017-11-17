@@ -1,5 +1,4 @@
 <?php
-define("ROOT", $_SERVER['SERVER_NAME'] . '....................');
 class Site {
 
     // echo Site::css('css/blog.css'); //
