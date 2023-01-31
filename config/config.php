@@ -6,7 +6,7 @@ $app = new Engine();
 // autoload controllers ////////
 $app->path('controllers');
 
-// view controllers for register ////
+// view controllers for register ////////
 $controllers = [
     'display' => 'ViewController'
 ];
@@ -16,7 +16,19 @@ foreach($controllers as $controller_name => $controller) {
     $app->register($controller_name, $controller);
 }
 
-// before start ///////////
+// global vars for views ////////
+$app->view()->set(
+    [
+        'language' => '',
+	    'theme' => 'auto',
+        'favicon' => '',
+        'site_description' => '',
+        'robots' => '',
+        'site_title' => 'My Website'
+    ]
+);
+
+// before start ////////
 $app->before('start', function(){
     
 });
