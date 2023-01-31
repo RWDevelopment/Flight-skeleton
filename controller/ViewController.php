@@ -6,6 +6,7 @@ class ViewController {
         
         global $app;
         $this->ctrl = $app;
+    
   }
   
   public function home() {
