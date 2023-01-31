@@ -11,19 +11,19 @@ class ViewController {
   
   public function home() {
 
-        
+     // to do ...
         
   }
 
   public function about() {
 
-      
+      // to do ...
     
   }
 
   public function 404() {
 
-  
+      // to do ...
         
   }
   
