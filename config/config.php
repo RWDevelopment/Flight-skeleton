@@ -18,14 +18,16 @@ foreach($controllers as $controller_name => $controller) {
 
 // global vars for views ////////
 $app->view()->set(
+	
     [
         'language' => '',
-	    'theme' => 'auto',
+	'theme' => 'auto',
         'favicon' => '',
         'site_description' => '',
         'robots' => '',
         'site_title' => 'My Website'
     ]
+	
 );
 
 // before start ////////
