@@ -1,21 +1,7 @@
 <?php
-require 'flight/Flight.php';
-define('ROOT', __DIR__ .'/');
 
-Flight::view()->set('sitename', 'Flight-skeleton');
+require_once __DIR__ .'/vendor/autoload.php';
+require_once __DIR__ .'/config/config.php';
+require_once __DIR__ .'/web/routes.php';
 
-
-Flight::route('/', function(){
-    Flight::render('main');
-});
-
-Flight::map('notFound', function(){
-    Flight::render('404');
-});
-
-Flight::map('error', function(){
-    Flight::render('500');
-});
-
-Flight::start();
-?>
+$app->start();
