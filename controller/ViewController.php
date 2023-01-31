@@ -21,7 +21,7 @@ class ViewController {
     
   }
 
-  public function e_404() {
+  public function 404() {
 
   
         
