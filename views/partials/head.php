@@ -4,6 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
-    <title>Hello, world!</title>
+    <title><?= $site_title; ?></title>
   </head>
 <body>
