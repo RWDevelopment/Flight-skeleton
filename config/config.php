@@ -4,7 +4,7 @@ use flight\Engine;
 $app = new Engine();
 
 // autoload controllers ////////
-$app->path('controllers');
+$app->path('controller');
 
 // view controllers for register ////////
 $controllers = [
