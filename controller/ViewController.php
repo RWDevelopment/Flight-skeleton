@@ -21,8 +21,8 @@ class ViewController {
           
             $page_data = [
               
-                'title' => $page->title,
-                'content' => $page->body()
+                'page_title' => $page->title,
+                'page_content' => $page->body()
               
             ];
           
