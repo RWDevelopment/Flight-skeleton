@@ -9,7 +9,7 @@ class ViewController {
     
   }
   
-  public function renderTemplate(string $template = null, array $page_data = null) {
+  public function renderTemplate(string $template = null, string $file_data = null) {
     
         $file = __DIR__.'/../pages/'.$file_data.'.md';
     
