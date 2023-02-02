@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# no directory browsing
+Options -Indexes
+
+# ErrorDocument 400 /views/error.php
+# ErrorDocument 401 /views/error.php
+# ErrorDocument 403 /views/error.php
+# ErrorDocument 500 /views/error.php
+
+<Files ~ “^\.htaccess”>
+  Order allow,deny
+  Deny from all
+</Files>
