@@ -2,7 +2,7 @@
 
   <main class="container">
     
-   <h1>404 Error</h1>
+   <?= $content ?>
     
   </main>
 
