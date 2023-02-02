@@ -1,4 +1,4 @@
-<?php include('partials/header.php'); ?>
+<?php include('partials/head.php'); ?>
 
   <main class="container">
     
