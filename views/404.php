@@ -2,7 +2,7 @@
 
   <main class="container">
     
-   <?= $content; ?>
+   <?= $page_content; ?>
     
   </main>
 
