@@ -18,20 +18,20 @@ class ViewController {
   
   public function home() {
 
-     $this->renderTemplate('home');
+         $this->renderTemplate('home');
         
   }
 
   public function about() {
 
-     $this->renderTemplate('about');
+         $this->renderTemplate('about');
     
   }
 
   public function 404() {
 
-      $this->ctrl->response()->status(404)->send();
-      $this->renderTemplate('404');
+          $this->ctrl->response()->status(404)->send();
+          $this->renderTemplate('404');
         
   }
   
