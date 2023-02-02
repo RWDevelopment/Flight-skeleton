@@ -1,5 +1,7 @@
 <?php
 
+use Spatie\YamlFrontMatter\YamlFrontMatter as Yaml;
+
 class ViewController {
 
   public function  __construct()  {
