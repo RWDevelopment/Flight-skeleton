@@ -2,7 +2,7 @@
 
   <main class="container">
     
-   <h1>About</h1>
+   <?= $content ?>
     
   </main>
 
