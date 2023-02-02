@@ -28,7 +28,7 @@ class ViewController {
     
   }
 
-  public function 404() {
+  public function e404() {
 
          $this->ctrl->response()->status(404)->send();
          $this->renderTemplate('404');
